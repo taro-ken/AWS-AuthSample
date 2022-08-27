@@ -1,0 +1,25 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AWS-AuthSample' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AWS-AuthSample
+ 
+  pod 'Amplify'
+  pod 'AmplifyPlugins/AWSCognitoAuthPlugin'
+  pod 'amplify-tools'
+  pod 'AWSPluginsCore'
+  pod 'AmplifyPlugins/AWSAPIPlugin'
+
+  target 'AWS-AuthSampleTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AWS-AuthSampleUITests' do
+    # Pods for testing
+  end
+
+end

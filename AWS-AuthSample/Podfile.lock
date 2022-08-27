@@ -1,0 +1,73 @@
+PODS:
+  - Amplify (1.28.0):
+    - Amplify/Default (= 1.28.0)
+  - amplify-tools (0.2.0)
+  - Amplify/Default (1.28.0)
+  - AmplifyPlugins/AWSAPIPlugin (1.28.0):
+    - AppSyncRealTimeClient (~> 2.0)
+    - AWSCore (~> 2.27.0)
+    - AWSPluginsCore (= 1.28.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.28.0):
+    - AWSAuthCore (~> 2.27.0)
+    - AWSCognitoIdentityProvider (~> 2.27.0)
+    - AWSCognitoIdentityProviderASF (~> 2.27.0)
+    - AWSCore (~> 2.27.0)
+    - AWSMobileClient (~> 2.27.0)
+    - AWSPluginsCore (= 1.28.0)
+  - AppSyncRealTimeClient (2.1.1):
+    - Starscream (~> 4.0.4)
+  - AWSAuthCore (2.27.13):
+    - AWSCore (= 2.27.13)
+  - AWSCognitoIdentityProvider (2.27.13):
+    - AWSCognitoIdentityProviderASF (= 2.27.13)
+    - AWSCore (= 2.27.13)
+  - AWSCognitoIdentityProviderASF (2.27.13):
+    - AWSCore (= 2.27.13)
+  - AWSCore (2.27.13)
+  - AWSMobileClient (2.27.13):
+    - AWSAuthCore (= 2.27.13)
+    - AWSCognitoIdentityProvider (= 2.27.13)
+    - AWSCognitoIdentityProviderASF (= 2.27.13)
+    - AWSCore (= 2.27.13)
+  - AWSPluginsCore (1.28.0):
+    - Amplify (= 1.28.0)
+    - AWSCore (~> 2.27.0)
+  - Starscream (4.0.4)
+
+DEPENDENCIES:
+  - Amplify
+  - amplify-tools
+  - AmplifyPlugins/AWSAPIPlugin
+  - AmplifyPlugins/AWSCognitoAuthPlugin
+  - AWSPluginsCore
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - amplify-tools
+    - AmplifyPlugins
+    - AppSyncRealTimeClient
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+    - Starscream
+
+SPEC CHECKSUMS:
+  Amplify: dfa12fad1609b1388d0b2fb6f99b3140cd942d09
+  amplify-tools: 2304ea0782b61fdb15c7a1e6bf5e0410b02b4f46
+  AmplifyPlugins: 1bac66d0349fa307008f6f7711b09d0f80e78c30
+  AppSyncRealTimeClient: 937360221f2b664c4c33ae142a60643e64f480cd
+  AWSAuthCore: 9898614783bd6375742b58a1df38c6a8b8276eda
+  AWSCognitoIdentityProvider: c105df15533a029230c325acd2be60ff45e8f3f9
+  AWSCognitoIdentityProviderASF: e0f40ef2f5c2c357b77553144e8f41a6c0b0b81b
+  AWSCore: 05edadb5f3d0b92a50ea8c66b06f1a10477878da
+  AWSMobileClient: a49361347ff5c0cff946b3f777936c0fdf9c190d
+  AWSPluginsCore: 7f0f984d787a4fe79d3d52c3d34e1779d1fc9bb8
+  Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
+
+PODFILE CHECKSUM: b0c8af435954e9a35dba292c717aa91e2e7722e7
+
+COCOAPODS: 1.11.3
